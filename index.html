@@ -1,0 +1,137 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brick by Brick: High on the Case</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f023dd87f9.js" crossorigin="anonymous"></script>
+        <script src="turn.js" defer></script>
+        <script src="menu.js" defer></script>
+        <script src="top.js" defer></script>
+        <script src="slider.js"defer></script>
+    </head>
+    <div class="container">
+    <body>
+        
+    <header>
+
+
+            <h1>Brick by Brick: High on the Case</h1>
+        
+    
+        <nav class="top-nav">
+            <a href="#section1" class="section-links">om filmen</a>
+
+            <a href="#section2" class="section-links">karaktere</a>
+
+            <a href="#section3" class="section-links">processen</a>
+
+            <a href="#section4" class="section-links">find os</a>
+        </nav>
+
+        
+
+    </header>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+    <section class="om-film" id="section1">
+        
+        
+        <div class="arrow-down">
+        <h2>Om filmen</h2>
+    </div>
+    <p>Denne film handler om en dårlig dedektiv det bliver presset, og tager nogle livs forandrende valg, som for ham ud i nogle dødsens farlige problemer.</p>
+    <h3>filmen</h3>   
+    <div class="filmen">
+            <video controls>
+                <source src="images/Finished_movie.mp4" type="video/mp4">
+    </div>
+    </section>
+
+    <section class="section-two" id="section2">
+        <h2>Turn table</h2>
+        <p class="turnp">Her er nogle Karaktere og objekter som vi har brugt i filmen.</p>
+        <figure class="turn">
+            <img src="police_turn/TurnTable/0000.png" alt="" id="turn-img">
+
+            <div class="buttons">
+                <input type="range" name="" id="range" min="0" max="550" value="1">
+            </div>
+            
+
+        </figure>
+    
+
+
+
+
+    </section>
+
+    <section class="section-three" id="section3">
+        <h2>vores Storyboard</h2>
+        <div class="slider-container">
+            <figure class="slide fade">
+                <img src="images/Story1.jpg" alt="vores storyboard">
+            </figure>
+            <figure class="slide fade">
+                <img src="images/story2.jpg" alt="vores storyboard">
+            </figure>
+            <figure class="slide fade">
+                <img src="images/story3.jpg" alt="vores storyboard">
+            </figure>
+
+            <a class="prev" title="Forrige billede" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" title="Næste billede" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="section-footer" id="section4">
+        <h2>følg os</h2>
+        <div class="some-icons">
+            
+        <a href="https://github.com/mazejumper1">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/magnus.borregaard/">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/magnus.borregaard.90">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+    
+        </div>
+        
+
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1421.2329153454168!2d12.085224364392314!3d55.62564489769635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525febe81aa287%3A0x9864d6527aec94c3!2sPulsen%208%2C%204000%20Roskilde!5e1!3m2!1sen!2sdk!4v1678189450822!5m2!1sen!2sdk"
+        style="border: 10px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </footer>
+    </body>
+</div>
+    </html>
